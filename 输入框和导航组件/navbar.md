@@ -23,17 +23,17 @@
 			<p class="navbar-text">这是一段文本<a href="#" class="navbar-link">链接</a></p>
 		</div>
 	</nav>
-2.反色调导航  
+## 2.反色调导航 ##  
 
 	<nav class="navbar navbar-inverse">
 	...
 	</nav>
 
-3.导航中使用按钮以及使用对齐方式
+## 3.导航中使用按钮以及使用对齐方式 ##
 
 	<button class="btn btn-default navbar-btn navbar-left">按钮</button>
 
-4.导航中使用文本和链接
+## 4.导航中使用文本和链接 ##
 
 	<p class="navbar-text">这是一段文本<a href="#" class="navbar-link">链接</a></p>
 
