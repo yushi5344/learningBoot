@@ -112,6 +112,6 @@
 	</div>
 
 样式      
-![100%](../images/jumbotron-alert-close.gif)   
+![100%](../images/Jumbotron-alert-close.gif)   
 
  
