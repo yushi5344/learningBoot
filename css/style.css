@@ -43,6 +43,36 @@ body {
 .tab1 .col{
 	padding:20px;
 }
+.tab2 {
+	background-color: #eee;
+	padding: 60px 20px;
+	text-align: center;
+}
+.tab2 img{
+	width: 40%;
+	height: 40%;
+}
+.tab3{
+	padding: 40px 0;
+	text-align: center;
+}
+.tab3 img{
+	width: 65%;
+	height: 65%;
+}
+.text h3{
+	font-size: 26px;
+}
+.text p{
+	font-size: 18px;
+}
+#footer{
+	background-color: #eee;
+	border-top: 1px solid #ccc;
+	padding: 20px;
+	text-align: center;
+}
+
 /*没有小于768px,是因为bootstrap3是以移动端*/
 
 /*小屏幕，（平板，大于等于768px）*/
@@ -53,6 +83,18 @@ body {
 	.tab-p{
 		font-size: 16px;
 	}
+	.text h3{
+		font-size: 20px;
+	}
+	.text p{
+		font-size: 15px;
+	}
+	.tab2-text{
+		float: left;
+	}
+	.tab2-img{
+		float: right;
+	}
 }
 /*中等屏幕，（桌面显示器，大约等于992px）*/
 @media(min-width:992px){
@@ -62,6 +104,12 @@ body {
 	.tab-p{
 		font-size: 17px;
 	}
+	.text h3{
+		font-size: 24px;
+	}
+	.text p{
+		font-size: 16px;
+	}
 }
 /*大屏幕，（大桌面显示器，大约等于1200px）*/
 @media(min-width:1200px){
@@ -69,6 +117,12 @@ body {
 		font-size: 30px;
 	}
 	.tab-p{
+		font-size: 18px;
+	}
+	.text h3{
+		font-size: 26px;
+	}
+	.text p{
 		font-size: 18px;
 	}
 }
